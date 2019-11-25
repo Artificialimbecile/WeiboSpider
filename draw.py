@@ -47,7 +47,7 @@ def draw_graph(file_path):
 
 
 def main():
-    user_id = 'Your id'  # 你的的user_id
+    user_id = int('Your id')  # 你的的user_id
     cookie = {'Cookie': 'Your cookie'}
     file_path = 'network.txt'
     write_network(user_id, cookie, file_path)

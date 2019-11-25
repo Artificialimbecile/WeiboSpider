@@ -88,7 +88,7 @@ class Follow(object):
 def main():
     try:
         # 爬取关注列表的user_id
-        user_id = 'Your id'
+        user_id = int('Your id')
         cookie = {'Cookie': 'Your cookie'}
         # 将your cookie替换成自己的cookie
         fw = Follow(user_id, cookie)    # 调用Weibo类，创建微博实例wb
