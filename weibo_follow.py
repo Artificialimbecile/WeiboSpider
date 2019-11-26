@@ -64,7 +64,7 @@ class Follow(object):
                 if people.find("粉丝") == 0:
                     num_people = people[2:people.find("人")]
                     break
-            if user_id.isdigit() and len(img) <= 1 and int(num_people) < 1000:
+            if user_id.isdigit() and len(img) <= 1 and int(num_people) < 1000:  # 删除大V和粉丝数大于1000的用户
                 self.follow_list.append(user_id)
                 self.follow_name_list.append(name)
 
