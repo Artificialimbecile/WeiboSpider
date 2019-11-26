@@ -1,6 +1,6 @@
 - weibo.py为爬取uid的所有微博信息，源自https://github.com/dataabc/weibo-crawler
 - weibo_follow.py使用uid和cookie爬取关注列表及其微博所有信息，修改自https://github.com/dataabc/weibo-follow
-- draw.py利用uid和cookie爬取关注列表，并绘制人际关系网。
+- draw.py利用uid和cookie爬取关注列表，删除大V和粉丝数大于1000的用户，绘制社交关系图。
 * [功能](#功能)
 * [输出](#输出)
 * [实例](#实例)
