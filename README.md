@@ -1,6 +1,20 @@
+## 使用
+- 要绘制社交关系图, 请查看下面如何获取cookie和user_id, 填入draw.py中
+```bash
+$ python draw.py
+```
+
+
+## 说明
 - weibo.py为爬取uid的所有微博信息，源自https://github.com/dataabc/weibo-crawler
 - weibo_follow.py使用uid和cookie爬取关注列表，删除大V和粉丝数大于1000的用户，爬取剩余用户微博的所有信息，修改自https://github.com/dataabc/weibo-follow
-- draw.py使用weibo_follow.py爬取关注列表，绘制社交关系图。
+- draw.py使用uid和cookie爬取关注列表，绘制社交关系图。
+
+
+
+以下使用教程源自https://github.com/dataabc/weibo-crawler
+
+
 * [功能](#功能)
 * [输出](#输出)
 * [实例](#实例)
